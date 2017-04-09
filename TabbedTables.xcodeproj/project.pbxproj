@@ -15,6 +15,9 @@
 		3F9F5B751E99D0DB0065761E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9F5B731E99D0DB0065761E /* LaunchScreen.storyboard */; };
 		3F9F5B801E99D0DB0065761E /* TabbedTablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F5B7F1E99D0DB0065761E /* TabbedTablesTests.swift */; };
 		3F9F5B8B1E99D0DB0065761E /* TabbedTablesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F5B8A1E99D0DB0065761E /* TabbedTablesUITests.swift */; };
+		3F9F5B9B1E99FA530065761E /* HeavyWeaponsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F5B9A1E99FA530065761E /* HeavyWeaponsViewController.swift */; };
+		3F9F5B9D1E99FA980065761E /* BowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F5B9C1E99FA980065761E /* BowsViewController.swift */; };
+		3F9F5B9F1E99FAA70065761E /* ShieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9F5B9E1E99FAA70065761E /* ShieldsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3F9F5B861E99D0DB0065761E /* TabbedTablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbedTablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9F5B8A1E99D0DB0065761E /* TabbedTablesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedTablesUITests.swift; sourceTree = "<group>"; };
 		3F9F5B8C1E99D0DB0065761E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9F5B9A1E99FA530065761E /* HeavyWeaponsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeavyWeaponsViewController.swift; sourceTree = "<group>"; };
+		3F9F5B9C1E99FA980065761E /* BowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BowsViewController.swift; sourceTree = "<group>"; };
+		3F9F5B9E1E99FAA70065761E /* ShieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,15 @@
 		3F9F5B671E99D0DA0065761E /* TabbedTables */ = {
 			isa = PBXGroup;
 			children = (
-				3F9F5B681E99D0DA0065761E /* AppDelegate.swift */,
+				3F9F5B6E1E99D0DA0065761E /* Main.storyboard */,
 				3F9F5B6A1E99D0DA0065761E /* FirstViewController.swift */,
 				3F9F5B6C1E99D0DA0065761E /* SecondViewController.swift */,
-				3F9F5B6E1E99D0DA0065761E /* Main.storyboard */,
+				3F9F5B9A1E99FA530065761E /* HeavyWeaponsViewController.swift */,
+				3F9F5B9C1E99FA980065761E /* BowsViewController.swift */,
+				3F9F5B9E1E99FAA70065761E /* ShieldsViewController.swift */,
 				3F9F5B711E99D0DA0065761E /* Assets.xcassets */,
 				3F9F5B731E99D0DB0065761E /* LaunchScreen.storyboard */,
+				3F9F5B681E99D0DA0065761E /* AppDelegate.swift */,
 				3F9F5B761E99D0DB0065761E /* Info.plist */,
 			);
 			path = TabbedTables;
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9F5B9B1E99FA530065761E /* HeavyWeaponsViewController.swift in Sources */,
+				3F9F5B9F1E99FAA70065761E /* ShieldsViewController.swift in Sources */,
 				3F9F5B6D1E99D0DA0065761E /* SecondViewController.swift in Sources */,
 				3F9F5B691E99D0DA0065761E /* AppDelegate.swift in Sources */,
 				3F9F5B6B1E99D0DA0065761E /* FirstViewController.swift in Sources */,
+				3F9F5B9D1E99FA980065761E /* BowsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

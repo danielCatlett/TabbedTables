@@ -1,14 +1,14 @@
-//  SecondViewController.swift
+//  BowsViewController.swift
 //  TabbedTables
 //
-//  Created by Daniel Catlett on 4/8/17.
+//  Created by Daniel Catlett on 4/9/17.
 //  Copyright © 2017 Daniel Catlett. All rights reserved.
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
+class BowsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate
 {
-    private let claymores = ["Edge of Duality", "Royal Claymore", "The Royal Guard's Claymore"]
+    private let bows = ["Ancient Bow", "Bow of Light", "Great Eagle Bow", "Royal Guard's Bow", "Savage Lynel Bow"]
     let simpleTableIdentifier = "SimpleTableIdentifier"
 
     override func viewDidLoad()
@@ -20,11 +20,11 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     {
         super.didReceiveMemoryWarning()
     }
-
+    
     //MARK: - Table View Data Source Methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return claymores.count
+        return bows.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
@@ -35,9 +35,8 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: simpleTableIdentifier)
         }
         
-        cell?.textLabel?.text = claymores[indexPath.row]
+        cell?.textLabel?.text = bows[indexPath.row]
         return cell!
     }
 
 }
-
